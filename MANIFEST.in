@@ -1,3 +1,4 @@
 include README.rst
 recursive-include billy/schemas *.json *.rnc
-recursive-include billy/site/browse/templates/billy *.html
+recursive-include billy/web/*/templates *
+recursive-include billy/web/*/static *
